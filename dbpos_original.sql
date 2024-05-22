@@ -1,8 +1,6 @@
 
-
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
-
 
 
 CREATE DATABASE IF NOT EXISTS `dbpos` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
@@ -29,7 +27,6 @@ INSERT INTO `customers` (`id`, `name`, `contact`, `address`, `note`) VALUES
 (12, 'Platea21', 'Gorchor', 'Peru', 'Hola');
 
 
-
 CREATE TABLE IF NOT EXISTS `products` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `category` varchar(100) NOT NULL,
@@ -49,7 +46,6 @@ INSERT INTO `products` (`id`, `category`, `name`, `quantity`, `purchase`, `retai
 (24, 'Finger Food', 'Chicken Ball', 99, 3, 5, 'Stick Fishing ball'),
 (25, 'Dessert', 'Puto', 97, 3, 5, 'kakanin atb.');
 
-
 CREATE TABLE IF NOT EXISTS `sales` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `dates` date NOT NULL,
@@ -64,7 +60,6 @@ CREATE TABLE IF NOT EXISTS `sales` (
   `changed` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
-
 
 
 INSERT INTO `sales` (`id`, `dates`, `customers`, `category`, `name`, `amnt`, `quantity`, `total`, `profit`, `tendered`, `changed`) VALUES
@@ -99,8 +94,6 @@ CREATE TABLE IF NOT EXISTS `users` (
   PRIMARY KEY (`userid`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
-
 INSERT INTO `users` (`userid`, `username`, `password`, `access`) VALUES
 (1, 'admin', 'admin', 'Admin'),
 (2, 'vendedor', 'vendedor', 'Salesperson');
-

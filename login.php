@@ -34,7 +34,7 @@ if(isset($_POST['username'])){
 
     <table border="0" cellspacing="10px" width="100%" cellpadding="5px">
     <tr>
-    	<td width="80%" align="left"> <font size="12px">C</font><span style="font-size: 18px;">omida <b>R</b>apida <b>J</b>aponesa</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:36px">Platea21</span></td>
+    	<td width="80%" align="left"> <font size="12px">C</font><span style="font-size: 18px;">omida <b>R</b>apida <b>J</b>aponesa</span>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:36px"></span></td>
         <td width="10%">&nbsp;   </td>
         <td width="10%" align="right"><a href="javascript:void(0)" onclick="toggle_visibility('popup-box1')"><input type="button" id="btnadd" value="Ingresar"></a></td>
         <td width="0%">&nbsp;  </td>
@@ -52,7 +52,7 @@ if(isset($_POST['username'])){
 <table border="0" cellpadding="15px" align="center"; style="size: 12px; font-family: 'Courier New', Courier, monospace; color: #FFF; font-size: 12px;">
 <tr>
 	<td>
-    &copy; 2024 todos los derechos reservados.  |  Para la materia de :<a href="https://www.facebook.com/platea21">INF 133</a>	
+    &copy; 2024 todos los derechos reservados.  |  Para la materia de :<a href="https://www.facebook.com/japanesefastfood24">INF 133</a>	
     </td>
 </tr>
 </table>

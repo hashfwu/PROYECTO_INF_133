@@ -118,7 +118,8 @@
         style="size: 12px; font-family: 'Courier New', Courier, monospace; color: #FFF; font-size: 12px;">
         <tr>
           <td>
-            &copy; 20224 Japanese food | Diseñado para la meteria de :<a href="https://www.facebook.com/platea21">INF 133</a>
+            &copy; 20224 Japanese food | Diseñado para la meteria de :<a
+              href="https://www.facebook.com/japanesefastfood">INF 133</a>
           </td>
         </tr>
       </table>
@@ -190,11 +191,13 @@
                 @$tendered = $_POST['tendered'];
                 @$quant = $_POST['quant'];
                 @$profit = $_POST['profit'];
-
+              
                 @$profit = $profit;
                 @$quant = $quant;
                 @$ten = $tendered;
                 @$change = $tendered - $total;
+
+                $change = $tendered - $total;
               }
 
               ?>
@@ -252,6 +255,9 @@
                   @$quant = $quant;
                   @$total = $amnt * $quant;
                   @$profit = $total - $quant * $purchase;
+
+
+                  
                 }
 
 
